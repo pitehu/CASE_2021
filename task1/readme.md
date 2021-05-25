@@ -15,7 +15,8 @@ We require the following package:
 * sklearn
 
 # Pretrained Weights
-Link: https://polybox.ethz.ch/index.php/s/1obl9maAHmUgq1t
-Checkpoint_pretrain refers to the best weight (determined by downstream task) after the second pretrain.
+* Link: https://polybox.ethz.ch/index.php/s/1obl9maAHmUgq1t
 
-Checkpoint_submit is the weight of the actual model for our submission.
+* Checkpoint_pretrain: the best weight (determined by downstream task) after the second pretrain.
+
+* Checkpoint_submit: the weight of the actual model for our submission.
