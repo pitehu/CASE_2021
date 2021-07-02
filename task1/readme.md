@@ -25,7 +25,7 @@ We require the following package:
 
 # Second pretraining
 **Warning: this might take very long**
-* Acquire the POLUSA dataset: https://zenodo.org/record/3813664#.XvDMbWhKiUk
+* acquire the POLUSA dataset: https://zenodo.org/record/3813664#.XvDMbWhKiUk
 * run Second_pretrain.py with the appropiate command line argument. Those with default values can be left unchanged. 
 
 # To finetune the model with a saved second pretrained weight:
