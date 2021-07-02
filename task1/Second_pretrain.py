@@ -62,7 +62,7 @@ if __name__ == '__main__':
     
     valid_dataset = load_dataset('csv', data_files=['validate_dataset_for_lm.csv'])
     
-    tokenizer = AutoTokenizer.from_pretrained(os.getcwd()+"/models/roberta-base/tokenizer")
+    tokenizer = AutoTokenizer.from_pretrained("roberta-base")
 
     from transformers import AutoModelForMaskedLM
     model = AutoModelForMaskedLM.from_pretrained("roberta-base")        

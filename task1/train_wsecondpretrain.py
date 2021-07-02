@@ -81,7 +81,7 @@ if __name__ == '__main__':
 
 
 
-    tokenizer = AutoTokenizer.from_pretrained(os.getcwd()+"/models/roberta-base/tokenizer")
+    tokenizer = AutoTokenizer.from_pretrained("roberta-base")
     
     trainingdata_en=read(FLAGS.training_data)
     testingdata_en=read(FLAGS.testing_data)
